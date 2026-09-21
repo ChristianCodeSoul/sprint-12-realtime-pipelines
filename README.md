@@ -1,6 +1,8 @@
 
 # Sprint 12 : Real-Time Pipelines & UI Isolation
 
+https://sprint-12-realtime-pipelines.vercel.app
+
 This project is an extension of my Sprint 11 Advanced E-Commerce application.
 
 For Sprint 12, I kept the core e-commerce functionality from Sprint 11 and focused on adding **real-time communication, isolated UI development, visual testing, and Redis-based WebSocket scaling**.
