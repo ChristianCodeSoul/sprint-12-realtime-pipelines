@@ -12,8 +12,8 @@ const config = {
     "@chromatic-com/storybook"
   ],
   "framework": "@storybook/nextjs",
-  "staticDirs": [
-    "..\\public"
-  ]
+  staticDirs: [
+  "../public"
+]
 };
 export default config;
