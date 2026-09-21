@@ -1,0 +1,34 @@
+.storybook-button {
+    min-height: 44px;
+    padding: 0 18px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+}
+
+.storybook-button--primary {
+    background: #625ad3;
+    color: white;
+}
+
+.storybook-button--secondary {
+    background: white;
+    color: #625ad3;
+    border-color: #625ad3;
+}
+
+.storybook-button:hover:not(:disabled) {
+    opacity: 0.9;
+}
+
+.storybook-button:active:not(:disabled) {
+    transform: translateY(1px);
+}
+
+.storybook-button:disabled {
+    cursor: not-allowed;
+    opacity: 0.55;
+}
